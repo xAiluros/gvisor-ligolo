@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/faketime"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 type processParams struct {

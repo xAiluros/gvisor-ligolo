@@ -26,14 +26,14 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/queue"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 const (

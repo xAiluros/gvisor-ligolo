@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
 )
 
 const smss = 1500

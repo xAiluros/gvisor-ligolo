@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/lisafs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
 )
 
 const (

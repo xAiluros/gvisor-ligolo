@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/mount"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 func init() {

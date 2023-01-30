@@ -33,15 +33,15 @@ import (
 	"time"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/sandbox"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/nicocha30/gvisor-ligolo/runsc/container"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/sandbox"
 )
 
 const (

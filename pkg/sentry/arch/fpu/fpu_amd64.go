@@ -21,10 +21,10 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // initX86FPState (defined in asm files) sets up initial state.

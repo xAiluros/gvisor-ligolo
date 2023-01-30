@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"gvisor.dev/gvisor/tools/constraintutil"
+	"github.com/nicocha30/gvisor-ligolo/tools/constraintutil"
 )
 
 var (

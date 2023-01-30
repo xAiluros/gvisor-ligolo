@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/test/packetimpact/testbench"
 )
 
 func init() {

@@ -18,9 +18,9 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcpconntrack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcpconntrack"
 )
 
 // connected creates a connection tracker TCB and sets it to a connected state

@@ -19,11 +19,11 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/contexttest"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/inet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
 )
 
 func newIPv6TestStack() *inet.TestStack {

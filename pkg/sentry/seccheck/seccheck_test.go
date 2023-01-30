@@ -18,9 +18,9 @@ import (
 	"errors"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fd"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
+	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 func init() {

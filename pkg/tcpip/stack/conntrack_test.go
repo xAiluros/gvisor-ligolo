@@ -17,13 +17,13 @@ package stack
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/testutil"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcpconntrack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/faketime"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcpconntrack"
 )
 
 func TestReap(t *testing.T) {

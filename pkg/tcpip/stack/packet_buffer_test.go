@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
 )
 
 func TestPacketHeaderPush(t *testing.T) {

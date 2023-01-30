@@ -20,12 +20,12 @@ import (
 	"io"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/contexttest"
+	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
 )
 
 // fileDescription is the common fd struct which a filesystem implementation

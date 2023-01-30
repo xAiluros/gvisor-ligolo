@@ -20,7 +20,7 @@ import (
 	"log"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 //go:embed bpf/drop_ebpf.o

@@ -19,8 +19,8 @@ package refs_template
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
 )
 
 // enableLogging indicates whether reference-related events should be logged (with

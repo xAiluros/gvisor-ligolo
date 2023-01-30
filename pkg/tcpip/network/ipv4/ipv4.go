@@ -21,17 +21,17 @@ import (
 	"reflect"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/header/parse"
-	"gvisor.dev/gvisor/pkg/tcpip/network/hash"
-	"gvisor.dev/gvisor/pkg/tcpip/network/internal/fragmentation"
-	"gvisor.dev/gvisor/pkg/tcpip/network/internal/ip"
-	"gvisor.dev/gvisor/pkg/tcpip/network/internal/multicast"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/hash"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/fragmentation"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/ip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/multicast"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 const (
@@ -1229,7 +1229,8 @@ func (e *endpoint) deliverPacketLocally(h header.IPv4, pkt stack.PacketBufferPtr
 		// headers, the setting of the transport number here should be
 		// unnecessary and removed.
 		pkt.TransportProtocolNumber = p
-		e.handleICMP(pkt)
+		// Ligolo-ng: disable ICMP handling
+		// e.handleICMP(pkt)
 		return
 	}
 	// ICMP handles options itself but do it here for all remaining destinations.

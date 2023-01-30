@@ -34,10 +34,10 @@ import (
 	"github.com/cenkalti/backoff"
 	"github.com/prometheus/common/expfmt"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // MetricClient implements an HTTP client that can spawn and connect to a running runsc metrics

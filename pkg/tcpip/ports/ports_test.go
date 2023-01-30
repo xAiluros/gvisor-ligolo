@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/testutil"
 )
 
 const (

@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 // ProctorSettings contains settings passed directly to the proctor process.

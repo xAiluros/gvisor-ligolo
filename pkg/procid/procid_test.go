@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // runOnMain is used to send functions to run on the main (initial) thread.

@@ -18,13 +18,13 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/testing/context"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checker"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/testing/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/udp"
 )
 
 const (

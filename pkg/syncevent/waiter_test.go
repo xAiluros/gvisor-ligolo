@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sleep"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sleep"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 func TestWaiterAlreadyPending(t *testing.T) {

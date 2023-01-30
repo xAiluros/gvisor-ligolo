@@ -17,7 +17,7 @@ package stack
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 const neighborCacheSize = 512 // max entries per interface

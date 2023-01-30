@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/fdbased"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv4"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 func TestInjectableEndpointRawDispatch(t *testing.T) {

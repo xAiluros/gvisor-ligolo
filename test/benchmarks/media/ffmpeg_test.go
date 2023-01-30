@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/harness"
 )
 
 // BenchmarkFfmpeg runs ffmpeg in a container and records runtime.

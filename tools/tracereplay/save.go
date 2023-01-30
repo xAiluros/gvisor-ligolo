@@ -20,9 +20,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/server"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
+	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/sinks/remote/server"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/sinks/remote/wire"
 )
 
 // Save implements the functionality required for the "save" command.

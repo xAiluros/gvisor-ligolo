@@ -18,7 +18,7 @@ import (
 	"go/token"
 	"testing"
 
-	"gvisor.dev/gvisor/tools/nogo/check"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/check"
 )
 
 // TestShouldReport validates the suppression behavior of Config.ShouldReport.

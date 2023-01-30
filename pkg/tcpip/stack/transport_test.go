@@ -19,12 +19,12 @@ import (
 	"io"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/link/channel"
-	"gvisor.dev/gvisor/pkg/tcpip/ports"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/channel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/ports"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 const (

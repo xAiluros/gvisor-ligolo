@@ -15,7 +15,7 @@
 package memmap
 
 import (
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 	"reflect"
 	"testing"
 )

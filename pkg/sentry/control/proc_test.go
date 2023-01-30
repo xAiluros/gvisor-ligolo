@@ -17,9 +17,9 @@ package control
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/log"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
 )
 
 func init() {

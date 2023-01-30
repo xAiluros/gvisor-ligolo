@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 // singleTest runs a TestCase. Each test follows a pattern:

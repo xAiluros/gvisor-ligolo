@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 type checker struct {

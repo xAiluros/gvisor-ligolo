@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // mountInChroot creates the destination mount point in the given chroot and

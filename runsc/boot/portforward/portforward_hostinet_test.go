@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"golang.org/x/sync/errgroup"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/contexttest"
 )
 
 func TestLocalHostSocket(t *testing.T) {

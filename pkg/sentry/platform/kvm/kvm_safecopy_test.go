@@ -26,9 +26,9 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/memutil"
-	"gvisor.dev/gvisor/pkg/safecopy"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
 )
 
 func testSafecopy(t *testing.T, mapSize uintptr, fileSize uintptr, testFunc func(t *testing.T, c *vCPU, addr uintptr)) {

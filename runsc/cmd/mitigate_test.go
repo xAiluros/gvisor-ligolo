@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/mitigate"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/mitigate"
 )
 
 type mockMachineControl struct {

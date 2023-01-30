@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/base"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/base"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/harness"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/tools"
 )
 
 // BenchmarkSizeEmpty creates N empty containers and reads memory usage from

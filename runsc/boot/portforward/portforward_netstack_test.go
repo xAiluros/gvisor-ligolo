@@ -20,11 +20,11 @@ import (
 	"sync"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/contexttest"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 type baseTCPEndpointImpl struct {

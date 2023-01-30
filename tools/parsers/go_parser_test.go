@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/tools/bigquery"
+	"github.com/nicocha30/gvisor-ligolo/tools/bigquery"
 )
 
 func TestParseLine(t *testing.T) {

@@ -28,8 +28,8 @@ import (
 
 	"github.com/cenkalti/backoff"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // TestDoKill checks that when "runsc do..." is killed, the sandbox process is

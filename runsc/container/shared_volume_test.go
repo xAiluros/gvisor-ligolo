@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/control"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/runsc/config"
 )
 
 // TestSharedVolume checks that modifications to a volume mount are propagated

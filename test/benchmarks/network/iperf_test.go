@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/harness"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/tools"
 )
 
 func BenchmarkIperf(b *testing.B) {

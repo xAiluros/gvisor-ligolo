@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
 )
 
 // Config holds configuration that is not part of the runtime spec.

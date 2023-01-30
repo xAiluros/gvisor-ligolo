@@ -22,7 +22,7 @@ package main
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 func arch_syscalls(syscalls seccomp.SyscallRules) {

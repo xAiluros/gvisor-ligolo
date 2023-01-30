@@ -21,13 +21,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/testing/context"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checker"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp/testing/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 const (

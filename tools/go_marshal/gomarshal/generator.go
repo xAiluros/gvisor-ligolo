@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/constraintutil"
+	"github.com/nicocha30/gvisor-ligolo/tools/constraintutil"
 )
 
 // List of identifiers we use in generated code that may conflict with a

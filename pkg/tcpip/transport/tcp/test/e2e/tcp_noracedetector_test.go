@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/test/e2e"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/testing/context"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp/test/e2e"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp/testing/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 func TestFastRecovery(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/control"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
 )
 
 func TestUser(t *testing.T) {

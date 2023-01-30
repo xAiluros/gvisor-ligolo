@@ -27,16 +27,16 @@ import (
 
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/coverage"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/runsc/cmd"
-	"gvisor.dev/gvisor/runsc/cmd/trace"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/nicocha30/gvisor-ligolo/pkg/coverage"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/trace"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
+	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 var (

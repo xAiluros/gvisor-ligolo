@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/docker/docker/api/types/mount"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 //TODO(gvisor.dev/issue/3535): move to own package or move methods to harness struct.

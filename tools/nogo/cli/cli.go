@@ -28,11 +28,11 @@ import (
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
 	yaml "gopkg.in/yaml.v2"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/nogo/check"
-	"gvisor.dev/gvisor/tools/nogo/config"
-	"gvisor.dev/gvisor/tools/nogo/facts"
-	"gvisor.dev/gvisor/tools/nogo/flags"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/check"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/config"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/facts"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/flags"
 )
 
 // openOutput opens an output file.

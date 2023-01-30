@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/cgroup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cgroup"
 )
 
 var (

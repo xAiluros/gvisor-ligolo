@@ -17,7 +17,7 @@ package testutil
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 // Who tests the testutils?

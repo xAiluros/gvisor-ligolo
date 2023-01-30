@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/harness"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/tools"
 )
 
 // All possible operations from redis. Note: "ping" will

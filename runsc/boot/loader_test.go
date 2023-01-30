@@ -23,15 +23,15 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/control/server"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/fsgofer"
+	"github.com/nicocha30/gvisor-ligolo/pkg/control/server"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fspath"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
+	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/fsgofer"
 )
 
 func init() {

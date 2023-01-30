@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 func TestDefault(t *testing.T) {

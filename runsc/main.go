@@ -16,7 +16,7 @@
 package main
 
 import (
-	"gvisor.dev/gvisor/runsc/cli"
+	"github.com/nicocha30/gvisor-ligolo/runsc/cli"
 )
 
 func main() {

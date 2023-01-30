@@ -22,7 +22,7 @@ import (
 
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 func main() {

@@ -19,10 +19,10 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/testutil"
 )
 
 var _ stack.NetworkInterface = (*testInterface)(nil)

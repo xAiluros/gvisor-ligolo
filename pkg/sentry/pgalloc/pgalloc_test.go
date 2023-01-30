@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 const (

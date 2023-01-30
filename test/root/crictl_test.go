@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/test/criutil"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/criutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
 )
 
 // Tests for crictl have to be run as root (rather than in a user namespace)

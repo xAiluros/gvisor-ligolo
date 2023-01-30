@@ -18,16 +18,16 @@ import (
 	"bytes"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv4"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 // netstackPortForwardConn is a portForwardConn implementation for netstack.

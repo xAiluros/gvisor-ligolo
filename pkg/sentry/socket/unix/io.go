@@ -15,10 +15,10 @@
 package unix
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 // EndpointWriter implements safemem.Writer that writes to a transport.Endpoint.

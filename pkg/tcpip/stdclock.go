@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // stdClock implements Clock with the time package.

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
 )
 
 func TestEncodeSACKBlocks(t *testing.T) {

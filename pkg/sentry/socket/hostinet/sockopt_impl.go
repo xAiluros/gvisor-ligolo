@@ -18,7 +18,7 @@
 package hostinet
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
 )
 
 func getSockOptLen(t *kernel.Task, level, name int) (len int, copyIn bool) {

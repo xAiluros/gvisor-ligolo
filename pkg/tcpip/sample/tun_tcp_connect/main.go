@@ -51,16 +51,16 @@ import (
 	"strconv"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.dev/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sniffer"
-	"gvisor.dev/gvisor/pkg/tcpip/link/tun"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/fdbased"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sniffer"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/tun"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv4"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 // writer reads from standard input and writes to the endpoint until standard

@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
 )
 
 func TestMain(m *testing.M) {

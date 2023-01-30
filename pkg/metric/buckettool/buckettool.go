@@ -20,9 +20,9 @@ import (
 	"os"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 var (

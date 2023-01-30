@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/safemem"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
 )
 
 // newContext returns a context.Context that we can use in these tests (we

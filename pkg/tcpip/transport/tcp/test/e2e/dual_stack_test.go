@@ -21,16 +21,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/test/e2e"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/testing/context"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checker"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv4"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp/test/e2e"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp/testing/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 func TestV4MappedConnectOnV6Only(t *testing.T) {

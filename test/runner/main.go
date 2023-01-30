@@ -32,13 +32,13 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/specutils"
-	"gvisor.dev/gvisor/test/runner/gtest"
-	"gvisor.dev/gvisor/test/trace/config"
-	"gvisor.dev/gvisor/test/uds"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/nicocha30/gvisor-ligolo/test/runner/gtest"
+	"github.com/nicocha30/gvisor-ligolo/test/trace/config"
+	"github.com/nicocha30/gvisor-ligolo/test/uds"
 )
 
 var (

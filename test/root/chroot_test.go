@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
 )
 
 func getParentPID(childPID int) (int, error) {

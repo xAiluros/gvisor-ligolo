@@ -20,13 +20,13 @@ import (
 	"sync"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/context"
-	fileDescriptor "gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/fdnotifier"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	fileDescriptor "github.com/nicocha30/gvisor-ligolo/pkg/fd"
+	"github.com/nicocha30/gvisor-ligolo/pkg/fdnotifier"
+	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 var (

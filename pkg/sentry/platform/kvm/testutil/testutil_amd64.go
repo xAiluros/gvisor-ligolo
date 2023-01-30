@@ -20,7 +20,7 @@ package testutil
 import (
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
 )
 
 // AddrOfTwiddleSegments return the address of a function that reads segments

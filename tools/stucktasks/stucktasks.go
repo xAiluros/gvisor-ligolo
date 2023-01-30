@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 var (

@@ -16,7 +16,7 @@
 package main
 
 import (
-	"gvisor.dev/gvisor/tools/nogo/cli"
+	"github.com/nicocha30/gvisor-ligolo/tools/nogo/cli"
 )
 
 func main() {

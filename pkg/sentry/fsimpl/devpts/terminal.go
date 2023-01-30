@@ -15,11 +15,11 @@
 package devpts
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
 )
 
 // Terminal is a pseudoterminal.

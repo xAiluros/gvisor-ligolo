@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/test/benchmarks/tools"
-	"gvisor.dev/gvisor/tools/bigquery"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/tools"
+	"github.com/nicocha30/gvisor-ligolo/tools/bigquery"
 )
 
 // ParseOutput expects golang benchmark output and returns a struct formatted

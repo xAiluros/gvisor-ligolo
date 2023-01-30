@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/container"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/testutil"
+	"github.com/nicocha30/gvisor-ligolo/runsc/container"
 )
 
 func TestList(t *testing.T) {

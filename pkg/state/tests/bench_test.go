@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/state/wire"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
 )
 
 // buildPtrObject builds a benchmark object.

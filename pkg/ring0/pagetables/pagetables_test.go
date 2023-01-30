@@ -15,7 +15,7 @@
 package pagetables
 
 import (
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 	"testing"
 )
 

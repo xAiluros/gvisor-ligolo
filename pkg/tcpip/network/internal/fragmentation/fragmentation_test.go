@@ -20,10 +20,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/network/internal/testutil"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/bufferv2"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/faketime"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // reassembleTimeout is dummy timeout used for testing, where the clock never

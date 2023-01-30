@@ -16,7 +16,7 @@
 package portforward
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
+	"github.com/nicocha30/gvisor-ligolo/pkg/context"
 )
 
 // portForwardConn is a port forwarding connection. It is used to manage the

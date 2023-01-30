@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	gErrors "gvisor.dev/gvisor/pkg/errors"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
+	gErrors "github.com/nicocha30/gvisor-ligolo/pkg/errors"
+	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
 )
 
 var globalError error

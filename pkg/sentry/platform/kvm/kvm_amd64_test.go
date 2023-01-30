@@ -20,13 +20,13 @@ package kvm
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/ring0/pagetables"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/pkg/sentry/platform/kvm/testutil"
+	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
+	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/kvm/testutil"
 )
 
 func TestSegments(t *testing.T) {

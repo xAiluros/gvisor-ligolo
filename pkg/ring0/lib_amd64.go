@@ -18,8 +18,8 @@
 package ring0
 
 import (
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 // writeFS sets the FS base address (selects one of wrfsbase or wrfsmsr).

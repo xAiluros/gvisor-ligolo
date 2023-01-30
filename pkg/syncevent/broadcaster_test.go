@@ -19,8 +19,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 func TestBroadcasterFilter(t *testing.T) {

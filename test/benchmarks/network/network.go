@@ -19,9 +19,9 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/nicocha30/gvisor-ligolo/pkg/test/dockerutil"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/harness"
+	"github.com/nicocha30/gvisor-ligolo/test/benchmarks/tools"
 )
 
 // runStaticServer runs static serving workloads (httpd, nginx).

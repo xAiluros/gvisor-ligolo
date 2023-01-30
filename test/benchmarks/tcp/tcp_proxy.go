@@ -33,17 +33,17 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/adapters/gonet"
-	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.dev/gvisor/pkg/tcpip/link/qdisc/fifo"
-	"gvisor.dev/gvisor/pkg/tcpip/network/arp"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/icmp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/adapters/gonet"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/fdbased"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/qdisc/fifo"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/arp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv4"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/ipv6"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/icmp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/udp"
 )
 
 var (

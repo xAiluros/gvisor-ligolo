@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 func TestSendRecvFD(t *testing.T) {

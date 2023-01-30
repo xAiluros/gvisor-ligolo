@@ -18,7 +18,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/syserr"
+	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
 )
 
 var unixDirentMaxSize = int(unsafe.Sizeof(unix.Dirent{}))

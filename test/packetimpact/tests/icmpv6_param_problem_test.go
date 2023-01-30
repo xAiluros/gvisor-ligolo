@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/nicocha30/gvisor-ligolo/test/packetimpact/testbench"
 )
 
 func init() {
